@@ -1,34 +1,5 @@
 # CMake build directories
 build/
-cmake-build*/
-CMakeFiles/
-CMakeCache.txt
-CMakeScripts/
-Testing/
-
-# Generated files
-Makefile
-*.cmake
-!CMakeLists.txt
-compile_commands.json
-.cmake/
-
-# Binary files
-*.o
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
 
 # IDE specific files
-.idea/
 .vscode/
-*.swp
-*~
-
-# Dependencies
-_deps/
-
-# Install directory
-install/
