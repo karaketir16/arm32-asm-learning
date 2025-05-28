@@ -6,4 +6,4 @@ add_executable(${PROJECT_NAME}
     src/main.s
 )
 
-setup_arm_project(${PROJECT_NAME})
+setup_arm_project(${PROJECT_NAME} TRUE)
