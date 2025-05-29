@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(ARMProjects C ASM)
 
-# set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain-arm.cmake)
-set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain-arm.cmake CACHE STRING "" FORCE)
 enable_language(ASM)
 
 # Function to setup ARM project build and debug
